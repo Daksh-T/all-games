@@ -41,3 +41,5 @@ tmp/
 # misc
 *.pem
 *.tsbuildinfo
+.vercel
+.env*.local
