@@ -1,0 +1,462 @@
+{
+  "bookCode": "1L",
+  "bookTitle": "Confidence and Connections - Teacher Book 1 Left",
+  "draftVersion": "2026-02-26",
+  "source": {
+    "pdf": "../StudentBook_1L.pdf",
+    "scopeSequencePage": 6,
+    "lessonKeyPages": {
+      "1": 8,
+      "2": 15,
+      "3": 22,
+      "4": 29,
+      "5": 36,
+      "6": 43,
+      "7": 50,
+      "8": 57,
+      "9": 64,
+      "10": 71,
+      "11": 78,
+      "12": 85,
+      "13": 92,
+      "14": 99,
+      "15": 106,
+      "16": 113
+    },
+    "notes": [
+      "Scope/sequence data transcribed from page image review.",
+      "Lesson 1-9 objectives validated with OCR from teacher lesson pages.",
+      "Lesson 10-16 objectives refined from scope/sequence plus OCR of corresponding lesson activity pages.",
+      "Lesson 15 title appears as 'We Have a Me-dium' in source layout; confirm exact punctuation/capitalization during QA."
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "chapterId": "1l-ch1",
+      "title": "Nice to Meet You",
+      "grammarFocus": "Wh- questions in the simple present with 'to be'; possessive adjectives",
+      "conversationFocus": "Make introductions with basic questions and answers",
+      "outcomes": [
+        "Introduce yourself",
+        "Give your address and phone number",
+        "Give basics on your English class"
+      ],
+      "detailedObjectives": [
+        "Introduce themselves",
+        "Recognize and utilize the alphabet and basic numbers",
+        "Give information needed for registration (phone number, address)"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "TAP_CORRECT",
+        "gameTitle": "Class Intro Sprint",
+        "whyThisFits": "Builds confidence with first-day class exchanges and registration language.",
+        "contentAnchors": [
+          "What's your name?",
+          "How do you spell your last name?",
+          "What's your phone number?",
+          "What's your address?"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 2,
+      "chapterId": "1l-ch2",
+      "title": "That's This Month!",
+      "grammarFocus": "Wh- questions in the simple present with 'to be'; possessive adjectives; ordinals",
+      "conversationFocus": "Share weekly schedules, talk about parties and events",
+      "outcomes": [
+        "Talk about your week",
+        "Share about important holidays",
+        "Tell your teacher if you can't come to class"
+      ],
+      "detailedObjectives": [
+        "Identify dates (ordinal numbers)",
+        "Talk about their basic schedule and week",
+        "Let their teacher know if they can't come to class"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "SWIPE_TRUE_FALSE",
+        "gameTitle": "Calendar Swipe",
+        "whyThisFits": "Fast true/false checks reinforce dates, day order, and attendance phrases.",
+        "contentAnchors": [
+          "November 4th / 21st",
+          "What day is your birthday?",
+          "I can't come to class today"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 3,
+      "chapterId": "1l-ch3",
+      "title": "It's Snowy and Cold",
+      "grammarFocus": "Wh- and How questions in the simple present with contractions",
+      "conversationFocus": "Discuss the weather",
+      "outcomes": [
+        "Talk about the weather",
+        "Use weather charts",
+        "Compare Celsius and Fahrenheit temperatures"
+      ],
+      "detailedObjectives": [
+        "Talk about the weather",
+        "Compare temperatures with Celsius and Fahrenheit",
+        "Read simple weather forecasts"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "CARD_FLIP_MATCH",
+        "gameTitle": "Weather Match",
+        "whyThisFits": "Memory matching pairs weather vocabulary with practical meaning clues.",
+        "contentAnchors": [
+          "snowy / windy / rainy",
+          "30 degrees",
+          "forecast",
+          "Celsius vs Fahrenheit"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 4,
+      "chapterId": "1l-ch4",
+      "title": "It Hurts a Lot!",
+      "grammarFocus": "Wh- and Yes/No questions with 'to be'; possessive adjectives",
+      "conversationFocus": "Role-play about body parts that hurt",
+      "outcomes": [
+        "Talk about your body",
+        "Ask if someone is okay",
+        "Talk about what hurts"
+      ],
+      "detailedObjectives": [
+        "Talk about their body",
+        "Talk about their health"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "SENTENCE_SORT",
+        "gameTitle": "Body Talk Builder",
+        "whyThisFits": "Sentence assembly reinforces short, useful health expressions.",
+        "contentAnchors": [
+          "What's wrong?",
+          "My stomach hurts",
+          "Are you okay?",
+          "Let's go to the doctor"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 5,
+      "chapterId": "1l-ch5",
+      "title": "It's New",
+      "grammarFocus": "Yes/No questions with 'to be' and 'do'; short answers; a vs an",
+      "conversationFocus": "Share about where you live and what it's like",
+      "outcomes": [
+        "Give basics on where you live and what it's like",
+        "Ask others about their home"
+      ],
+      "detailedObjectives": [
+        "Respond to questions with short answers, yes/no",
+        "Distinguish when to use singular and plural forms of 'to be' and 'do'",
+        "Talk about their home"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "SPEED_MULTIPLE_CHOICE",
+        "gameTitle": "Home Talk Blitz",
+        "whyThisFits": "Timed responses build quick confidence with yes/no home-description patterns.",
+        "contentAnchors": [
+          "Do you live in a house?",
+          "Is your apartment big?",
+          "My neighbors are noisy",
+          "Pets are allowed"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 6,
+      "chapterId": "1l-ch6",
+      "title": "I Like to Play Soccer",
+      "grammarFocus": "Wh- questions with 'do' in the simple present; long answers",
+      "conversationFocus": "Talk about hobbies and things you do or do not do during free time",
+      "outcomes": [
+        "Share about what you like to do in your free time",
+        "Ask what others like to do in their free time"
+      ],
+      "detailedObjectives": [
+        "Talk about their hobbies",
+        "Talk about what they don't like to do"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "LETTER_TILE_SPELL",
+        "gameTitle": "Free-Time Speller",
+        "whyThisFits": "Spelling common hobby words supports speaking confidence for likes/dislikes.",
+        "contentAnchors": [
+          "soccer",
+          "shopping",
+          "cooking",
+          "friends",
+          "weekend"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 7,
+      "chapterId": "1l-ch7",
+      "title": "He Has a Big Family",
+      "grammarFocus": "Wh- and How questions in the simple present with 'go'",
+      "conversationFocus": "Talk about family members and family trees",
+      "outcomes": [
+        "Talk about your family",
+        "Share about where you live and go to school",
+        "Ask basic questions about someone's family and life"
+      ],
+      "detailedObjectives": [
+        "Talk about family members and children",
+        "Ask about age and school",
+        "Share where family members go to school"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "CATEGORY_SORT",
+        "gameTitle": "Family Tree Sort",
+        "whyThisFits": "Sorting reinforces family vocabulary, school questions, and common life details together.",
+        "contentAnchors": [
+          "How many children do you have?",
+          "How old are they?",
+          "Where do they go to school?"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 8,
+      "chapterId": "1l-ch8",
+      "title": "Review and Progress Check",
+      "grammarFocus": "Mixed review",
+      "conversationFocus": "Lesson 1-7 integration",
+      "outcomes": [
+        "Review and progress check"
+      ],
+      "detailedObjectives": [
+        "Demonstrate understanding across lessons 1-7",
+        "Complete listening and speaking progress-check tasks",
+        "Identify strengths and areas for extra practice"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "ODDBALL_OUT",
+        "gameTitle": "Progress Check Pop",
+        "whyThisFits": "Odd-one-out quickly checks mixed vocab/grammar before formal progress checks.",
+        "contentAnchors": [
+          "registration words",
+          "days and dates",
+          "weather and health words",
+          "home and hobby language"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 9,
+      "chapterId": "1l-ch9",
+      "title": "Field Trip",
+      "grammarFocus": "Context extension",
+      "conversationFocus": "Applied communication",
+      "outcomes": [
+        "Field trip communication practice"
+      ],
+      "detailedObjectives": [
+        "Prepare key questions and phrases before a community visit",
+        "Use English with people and places in the community",
+        "Reflect on what students saw and learned after the trip"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "IMAGE_WORD_MATCH",
+        "gameTitle": "Field Trip Finder",
+        "whyThisFits": "Image-to-phrase matching mirrors real objects and actions students meet outside class.",
+        "contentAnchors": [
+          "bring a map",
+          "take public transportation",
+          "prepare questions in English",
+          "talk to people in English"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 10,
+      "chapterId": "1l-ch10",
+      "title": "We Went Out",
+      "grammarFocus": "Wh- questions in the simple past with 'go' and 'stay'",
+      "conversationFocus": "Share about where you went last week",
+      "outcomes": [
+        "Talk about things you did in the past",
+        "Ask others about things they have done"
+      ],
+      "detailedObjectives": [
+        "Ask and answer where someone went",
+        "Use past forms like went/stayed/did",
+        "Describe weekend activities with time expressions"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "DRAG_WORD_BANK",
+        "gameTitle": "Weekend Story Builder",
+        "whyThisFits": "Word-bank fill-ins lock in past-tense structure without overwhelming learners.",
+        "contentAnchors": [
+          "Where did you go?",
+          "I stayed home.",
+          "I went to the movies.",
+          "last weekend / last night"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 11,
+      "chapterId": "1l-ch11",
+      "title": "I'm Retired",
+      "grammarFocus": "What and Yes/No questions in the simple present",
+      "conversationFocus": "Discuss jobs and roles and if you like them",
+      "outcomes": [
+        "Talk about what you do and if you like it or not",
+        "Ask others what they do and if they like it"
+      ],
+      "detailedObjectives": [
+        "Name jobs and workplaces",
+        "Ask and answer what someone does",
+        "Use short answers for do/does questions about liking work"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "DIALOG_GAP",
+        "gameTitle": "Job Talk Gaps",
+        "whyThisFits": "Dialogue completion mimics common job conversations learners have in daily life.",
+        "contentAnchors": [
+          "What do you do?",
+          "Where do you work?",
+          "Do you like your work?"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 12,
+      "chapterId": "1l-ch12",
+      "title": "I Can Work Part Time",
+      "grammarFocus": "Can questions in the simple present; short answers",
+      "conversationFocus": "Talk about different skills you have",
+      "outcomes": [
+        "Share about different workplace and life skills",
+        "Ask others for help and about their skills",
+        "Fill out a basic application"
+      ],
+      "detailedObjectives": [
+        "Respond to job skill questions using can/can't",
+        "Talk about part-time and full-time availability",
+        "Use practical language for simple job applications"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "TAP_CORRECT",
+        "gameTitle": "Can-Do Application",
+        "whyThisFits": "Fast-response prompts train practical interview and application language.",
+        "contentAnchors": [
+          "Can you lift 30 lbs?",
+          "Can you use a computer?",
+          "I can / I can't / I can learn"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 13,
+      "chapterId": "1l-ch13",
+      "title": "How Much Is It?",
+      "grammarFocus": "How Much and How Many questions in the simple present",
+      "conversationFocus": "Share about how you get around and use transportation",
+      "outcomes": [
+        "Ask how much different transportation options cost",
+        "Talk about how you get to work and other places"
+      ],
+      "detailedObjectives": [
+        "Ask and answer transportation-cost questions",
+        "Compare cheap/free options",
+        "Use one-way and bus-stop vocabulary in role-plays"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "SPEED_MULTIPLE_CHOICE",
+        "gameTitle": "Transit Cost Rush",
+        "whyThisFits": "Timed quiz format fits quick transport decisions and fare questions.",
+        "contentAnchors": [
+          "How much is it one way?",
+          "bus stop",
+          "cheap transportation options"
+        ]
+      }
+    },
+    {
+      "chapterNumber": 14,
+      "chapterId": "1l-ch14",
+      "title": "I'm Going to Hang Out with Friends",
+      "grammarFocus": "Wh- and Yes/No questions in the future tense; short answers",
+      "conversationFocus": "Discuss what you are going to do this week",
+      "outcomes": [
+        "Share your schedule with others",
+        "Ask others about their schedule"
+      ],
+      "detailedObjectives": [
+        "Ask and answer going-to questions",
+        "Describe weekend and weekly plans",
+        "Interpret schedule-based yes/no questions"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "MEMORY_PATH",
+        "gameTitle": "Future Plan Path",
+        "whyThisFits": "Sequence memory supports clear future-plan storytelling and schedule talk.",
+        "contentAnchors": [
+          "What are you going to do?",
+          "Friday/Saturday/Sunday plans",
+          "I'm going to..."
+        ]
+      }
+    },
+    {
+      "chapterNumber": 15,
+      "chapterId": "1l-ch15",
+      "title": "We Have a Medium",
+      "grammarFocus": "Wh- and How Much questions",
+      "conversationFocus": "Role-play about shopping for a friend",
+      "outcomes": [
+        "Describe what kind of clothing you like and wear",
+        "Talk about prices and places you shop"
+      ],
+      "detailedObjectives": [
+        "Ask about clothing size",
+        "Ask and answer cost questions in stores",
+        "Use common shopping text-message and in-person phrases"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "SENTENCE_SORT",
+        "gameTitle": "Clothing Cart Builder",
+        "whyThisFits": "Sentence ordering strengthens common shopping questions students need immediately.",
+        "contentAnchors": [
+          "What size do you wear?",
+          "How much are the jeans?",
+          "I like those shoes."
+        ]
+      }
+    },
+    {
+      "chapterNumber": 16,
+      "chapterId": "1l-ch16",
+      "title": "Review and Progress Check",
+      "grammarFocus": "Mixed review",
+      "conversationFocus": "Lesson 9-15 integration",
+      "outcomes": [
+        "Review and progress check"
+      ],
+      "detailedObjectives": [
+        "Integrate chapters 9-15 communication patterns",
+        "Show progress in speaking/listening tasks",
+        "Identify final targets for next-level readiness"
+      ],
+      "personalizedGameDraft": {
+        "mechanic": "CATEGORY_SORT",
+        "gameTitle": "Final Review Sort",
+        "whyThisFits": "Multi-category sorting gives a full-course checkpoint without test anxiety.",
+        "contentAnchors": [
+          "jobs and skills",
+          "transportation and prices",
+          "family and plans",
+          "clothing and shopping"
+        ]
+      }
+    }
+  ]
+}

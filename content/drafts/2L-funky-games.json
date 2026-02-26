@@ -1,0 +1,55 @@
+{
+  "bookCode": "2L",
+  "draftVersion": "2026-02-26",
+  "styleDirection": "Playful, mobile-first, mini-game feel with quick rounds and clear educational payoff",
+  "chapters": [
+    {
+      "chapterId": "2l-ch1",
+      "title": "Past Weekend Stories",
+      "mechanic": "DRAG_WORD_BANK",
+      "gameTitle": "Weekend Remix",
+      "playStyle": "Story fill-in puzzle",
+      "learningTarget": "Simple past verbs in everyday storytelling"
+    },
+    {
+      "chapterId": "2l-ch2",
+      "title": "Workplace Communication",
+      "mechanic": "CARD_FLIP_MATCH",
+      "gameTitle": "Workplace Match Jam",
+      "playStyle": "Flip-card pairing game",
+      "learningTarget": "Polite request/response workplace phrases"
+    },
+    {
+      "chapterId": "2l-ch3",
+      "title": "Money and Banking",
+      "mechanic": "CATEGORY_SORT",
+      "gameTitle": "Money Mixer",
+      "playStyle": "Sortable vocabulary buckets",
+      "learningTarget": "Bank actions, terms, and warning language"
+    },
+    {
+      "chapterId": "2l-ch4",
+      "title": "School and Community",
+      "mechanic": "IMAGE_WORD_MATCH",
+      "gameTitle": "Community Quest Match",
+      "playStyle": "Icon-to-phrase mission matching",
+      "learningTarget": "Community service vocabulary and practical task language"
+    },
+    {
+      "chapterId": "2l-ch5",
+      "title": "Travel and Transportation",
+      "mechanic": "SENTENCE_SORT",
+      "gameTitle": "Route Builder",
+      "playStyle": "Travel sentence puzzle build",
+      "learningTarget": "Route, delay, fare, and direction sentence patterns"
+    },
+    {
+      "chapterId": "2l-ch6",
+      "title": "Goals and Next Steps",
+      "mechanic": "MEMORY_PATH",
+      "gameTitle": "Goal Quest Path",
+      "playStyle": "Sequence-memory challenge",
+      "learningTarget": "Action sequencing for goals and planning"
+    }
+  ]
+}

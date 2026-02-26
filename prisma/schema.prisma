@@ -1,0 +1,77 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum BookStatus {
+  ACTIVE
+  UPCOMING
+}
+
+enum PublishStatus {
+  DRAFT
+  READY
+  PUBLISHED
+}
+
+enum MechanicType {
+  TAP_CORRECT
+  SWIPE_TRUE_FALSE
+  CARD_FLIP_MATCH
+  SENTENCE_SORT
+  SPEED_MULTIPLE_CHOICE
+  LETTER_TILE_SPELL
+  DRAG_WORD_BANK
+  DIALOG_GAP
+  CATEGORY_SORT
+  IMAGE_WORD_MATCH
+  ODDBALL_OUT
+  MEMORY_PATH
+}
+
+model Book {
+  id        String     @id
+  code      String     @unique
+  title     String
+  status    BookStatus @default(ACTIVE)
+  sortOrder Int
+  chapters  Chapter[]
+
+  @@index([sortOrder])
+}
+
+model Chapter {
+  id            String        @id
+  bookId        String
+  number        Int
+  title         String
+  theme         String
+  summary       String
+  publishStatus PublishStatus @default(DRAFT)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  book          Book          @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  gameConfig    GameConfig?
+
+  @@unique([bookId, number])
+  @@index([bookId, publishStatus])
+}
+
+model GameConfig {
+  id             String       @id
+  chapterId      String       @unique
+  mechanicType   MechanicType
+  roundTimeSec   Int          @default(60)
+  winRules       String
+  isPublished    Boolean      @default(false)
+  contentPayload Json
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  chapter        Chapter      @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
+  @@index([isPublished])
+}

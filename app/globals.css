@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+:root {
+  --page: #f2f7ff;
+  --ink: #0f172a;
+  --ease-bounce: cubic-bezier(0.2, 0.9, 0.2, 1);
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-nunito);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-nunito), sans-serif;
+}
+
+.font-title {
+  font-family: var(--font-space-grotesk), sans-serif;
+}
+
+.bg-radial-pattern {
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(56, 189, 248, 0.14), transparent 35%),
+    radial-gradient(circle at 85% 10%, rgba(129, 140, 248, 0.18), transparent 30%),
+    radial-gradient(circle at 50% 80%, rgba(34, 197, 94, 0.14), transparent 35%);
+}
+
+.bg-hero-gradient {
+  background: linear-gradient(135deg, #0284c7 0%, #2563eb 55%, #1d4ed8 100%);
+}
+
+.hooray-burst {
+  animation: hooray-pop 0.6s var(--ease-bounce);
+}
+
+@keyframes hooray-pop {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.lift-card {
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.lift-card:active {
+  transform: scale(0.985);
+}
+
+.lift-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -20px rgba(2, 132, 199, 0.5);
+}
+
+.game-shell {
+  animation: game-rise 340ms var(--ease-bounce);
+}
+
+.game-panel {
+  animation: game-fade 260ms ease-out;
+}
+
+.answer-reveal {
+  animation: answer-reveal 280ms ease-out;
+}
+
+.soft-pop {
+  animation: soft-pop 240ms ease-out;
+}
+
+.progress-pulse {
+  animation: progress-pulse 400ms ease-out;
+}
+
+.timer-chip {
+  position: relative;
+  overflow: hidden;
+}
+
+.timer-chip::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-120%);
+  background: linear-gradient(120deg, transparent 20%, rgba(255, 255, 255, 0.35) 45%, transparent 70%);
+  animation: chip-shine 2800ms linear infinite;
+  pointer-events: none;
+}
+
+@keyframes game-rise {
+  0% {
+    transform: translateY(8px) scale(0.992);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes game-fade {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes answer-reveal {
+  0% {
+    transform: translateY(6px);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes soft-pop {
+  0% {
+    transform: scale(0.985);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes progress-pulse {
+  0% {
+    transform: scale(0.7);
+  }
+  75% {
+    transform: scale(1.14);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes chip-shine {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
